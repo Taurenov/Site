@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d1f35"/>
+      <stop offset="45%" stop-color="#1a3d5c"/>
+      <stop offset="100%" stop-color="#3d2814"/>
+    </linearGradient>
+    <radialGradient id="portalGlow" cx="50%" cy="55%" r="35%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.45"/>
+      <stop offset="60%" stop-color="#26c6da" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="ink">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="2"/>
+    </filter>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+  <!-- distant peaks -->
+  <path d="M0 520 L280 340 L520 420 L780 280 L1100 380 L1400 260 L1920 400 L1920 1080 L0 1080 Z" fill="#1a1208" opacity="0.55"/>
+  <path d="M0 580 L360 440 L640 500 L920 380 L1280 460 L1680 360 L1920 480 L1920 1080 L0 1080 Z" fill="#2a1810" opacity="0.7"/>
+  <!-- ground -->
+  <path d="M0 680 Q960 620 1920 700 L1920 1080 L0 1080 Z" fill="#4a2c14"/>
+  <path d="M0 720 Q960 660 1920 740 L1920 1080 L0 1080 Z" fill="#6b3f1f" opacity="0.85"/>
+  <ellipse cx="960" cy="640" rx="420" ry="80" fill="url(#portalGlow)"/>
+  <!-- portal arch -->
+  <path d="M760 720 L760 480 Q960 320 1160 480 L1160 720 Z" fill="#1a1510" stroke="#c9a227" stroke-width="3"/>
+  <path d="M800 700 L800 500 Q960 380 1120 500 L1120 700 Z" fill="#0a1628" stroke="#00e5ff" stroke-width="2" opacity="0.9"/>
+  <path d="M880 680 L880 540 Q960 460 1040 540 L1040 680 Z" fill="#102a40" stroke="#4dd0e1" stroke-width="1.5"/>
+  <!-- runes on portal -->
+  <circle cx="960" cy="580" r="28" fill="none" stroke="#ffc107" stroke-width="2" opacity="0.8"/>
+  <path d="M960 552 L960 608 M936 580 L984 580" stroke="#00e5ff" stroke-width="2"/>
+  <!-- floating rocks -->
+  <path d="M420 380 L480 320 L540 390 L490 450 Z" fill="#3d2914" stroke="#1a1208" stroke-width="2"/>
+  <path d="M1380 300 L1450 240 L1520 310 L1460 370 Z" fill="#4a3218" stroke="#1a1208" stroke-width="2"/>
+  <path d="M320 520 L370 470 L420 530 L360 580 Z" fill="#352010" stroke="#1a1208" stroke-width="2"/>
+  <path d="M1520 480 L1580 420 L1640 490 L1570 540 Z" fill="#3d2914" stroke="#1a1208" stroke-width="2"/>
+  <path d="M680 260 L720 220 L760 270 L710 310 Z" fill="#2a1810" stroke="#1a1208" stroke-width="2"/>
+  <!-- lightning -->
+  <path d="M200 120 L240 200 L220 200 L280 320 L230 220 L255 220 L210 120 Z" fill="#80deea" opacity="0.35"/>
+  <path d="M1650 80 L1680 160 L1665 160 L1710 280 L1670 180 L1690 180 L1640 80 Z" fill="#00e5ff" opacity="0.25"/>
+  <!-- spirit wisps -->
+  <circle cx="180" cy="600" r="4" fill="#4dd0e1" opacity="0.5"/>
+  <circle cx="1740" cy="550" r="5" fill="#7e57c2" opacity="0.45"/>
+  <circle cx="1100" cy="200" r="3" fill="#00e5ff" opacity="0.4"/>
+</svg>

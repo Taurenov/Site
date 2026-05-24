@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Исатаев Михаил — Golang / C++ backend-разработчик. Go, Rust, PostgreSQL, Docker, микросервисы.">
+  <title>Исатаев Михаил · Golang / C++ Backend</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <nav class="scroll-rail" aria-label="Разделы сайта">
+    <a href="#hero" class="scroll-rail__dot is-active" data-section="hero" aria-label="Главная"></a>
+    <a href="#skills" class="scroll-rail__dot" data-section="skills" aria-label="Навыки"></a>
+    <a href="#experience" class="scroll-rail__dot" data-section="experience" aria-label="Опыт"></a>
+    <a href="#projects" class="scroll-rail__dot" data-section="projects" aria-label="Проекты"></a>
+    <a href="#about" class="scroll-rail__dot" data-section="about" aria-label="Обо мне"></a>
+    <a href="#contact" class="scroll-rail__dot" data-section="contact" aria-label="Контакты"></a>
+  </nav>
+
+  <header class="header" id="top">
+    <div class="header__inner">
+      <button class="nav-toggle header__menu" type="button" aria-label="Открыть меню" aria-expanded="false">
+        <span class="header__menu-icon"></span>
+        <span class="header__menu-label">Меню</span>
+      </button>
+      <a class="logo" href="#top">
+        <span class="logo__totem" aria-hidden="true"></span>
+        <span class="logo__text">Svalrix</span>
+      </a>
+      <a class="header__github" href="https://github.com/Taurenov" target="_blank" rel="noopener noreferrer">
+        <span class="header__github-mark">◆</span> GitHub
+      </a>
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="#hero">Главная</a>
+        <a href="#skills">Навыки</a>
+        <a href="#experience">Опыт</a>
+        <a href="#projects">Проекты</a>
+        <a href="#about">Обо мне</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-screen" id="hero">
+      <div class="hero-screen__bg" role="img" aria-label="Элементальный портал — фоновая иллюстрация"></div>
+      <div class="hero-screen__overlay"></div>
+      <div class="hero-screen__grain" aria-hidden="true"></div>
+
+      <div class="hero-screen__center">
+        <span class="hero-screen__badge">Шаман · Backend</span>
+        <p class="hero-screen__eyebrow">Шаман стихий · Golang / C++ backend</p>
+        <h1 class="hero-screen__title">Портфолио</h1>
+        <p class="hero-screen__name">Исатаев Михаил</p>
+        <a href="#intro" class="shaman-btn shaman-btn--primary hero-screen__cta">
+          <span class="shaman-btn__glow" aria-hidden="true"></span>
+          <span class="shaman-btn__label">Открыть портфолио</span>
+          <span class="shaman-btn__arrows" aria-hidden="true">‹ ›</span>
+        </a>
+      </div>
+      <p class="scroll-hint" aria-hidden="true">Листайте вниз · исследовать</p>
+    </section>
+
+    <div class="page-content" id="intro">
+      <section class="intro-block">
+        <div class="intro-block__text shaman-panel">
+          <p class="hero__meta">Нижний Тагил · удалённо · опыт 3 года</p>
+          <p class="hero__intro">
+            Backend на <strong>Go</strong> и <strong>C++</strong>: REST API, WebSocket, PostgreSQL, Redis, Docker.
+            Многосервисное приложение для инвестиций — <strong>Tauri/React</strong>, engine на <strong>Rust</strong>.
+          </p>
+          <div class="hero__tags">
+            <span class="tag tag--air">Go</span>
+            <span class="tag tag--earth">C++</span>
+            <span class="tag tag--water">Rust</span>
+            <span class="tag tag--spirit">PostgreSQL</span>
+            <span class="tag tag--fire">Docker</span>
+            <span class="tag tag--air">Tauri</span>
+          </div>
+          <div class="hero__actions">
+            <a href="#projects" class="shaman-btn shaman-btn--primary">
+              <span class="shaman-btn__glow" aria-hidden="true"></span>
+              <span class="shaman-btn__label">Проекты</span>
+            </a>
+            <a href="#contact" class="shaman-btn shaman-btn--secondary">
+              <span class="shaman-btn__label">Связаться</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="section skills" id="skills">
+      <div class="section__header">
+        <span class="section__index">01</span>
+        <h2 class="section__title">Навыки</h2>
+        <p class="section__desc">Стек из резюме: Go, C++, Rust, PostgreSQL, Docker, React, Tauri.</p>
+      </div>
+      <div class="skills__grid">
+        <article class="totem-card shaman-panel totem-card--air">
+          <div class="totem-card__bar">
+            <span class="totem-card__element">Тотем молнии</span>
+            <span class="totem-card__rank">Ранг IV</span>
+          </div>
+          <h3 class="totem-card__title">Golang</h3>
+          <p class="totem-card__text">REST API, WebSocket, chi, pgx, golang-migrate, structured logging.</p>
+          <div class="totem-card__meter" style="--level: 92%"></div>
+        </article>
+        <article class="totem-card shaman-panel totem-card--earth">
+          <div class="totem-card__bar">
+            <span class="totem-card__element">Тотем земли</span>
+            <span class="totem-card__rank">Ранг III</span>
+          </div>
+          <h3 class="totem-card__title">C++</h3>
+          <p class="totem-card__text">Низкоуровневые инструменты: DLL, хуки, работа с памятью, интеграция с Lua.</p>
+          <div class="totem-card__meter" style="--level: 78%"></div>
+        </article>
+        <article class="totem-card shaman-panel totem-card--fire">
+          <div class="totem-card__bar">
+            <span class="totem-card__element">Тотем огня</span>
+            <span class="totem-card__rank">Ранг IV</span>
+          </div>
+          <h3 class="totem-card__title">Backend и API</h3>
+          <p class="totem-card__text">HTTP, REST, gRPC, авторизация, миграции, конфигурация через env.</p>
+          <div class="totem-card__meter" style="--level: 88%"></div>
+        </article>
+        <article class="totem-card shaman-panel totem-card--water">
+          <div class="totem-card__bar">
+            <span class="totem-card__element">Тотем воды</span>
+            <span class="totem-card__rank">Ранг IV</span>
+          </div>
+          <h3 class="totem-card__title">Базы данных</h3>
+          <p class="totem-card__text">PostgreSQL, MySQL, Redis, SQL, проектирование схем и запросов.</p>
+          <div class="totem-card__meter" style="--level: 85%"></div>
+        </article>
+        <article class="totem-card shaman-panel totem-card--spirit">
+          <div class="totem-card__bar">
+            <span class="totem-card__element">Тотем духа</span>
+            <span class="totem-card__rank">Ранг IV</span>
+          </div>
+          <h3 class="totem-card__title">Инфраструктура</h3>
+          <p class="totem-card__text">Docker, Docker Compose, Linux, Git, CI-friendly сборки.</p>
+          <div class="totem-card__meter" style="--level: 86%"></div>
+        </article>
+        <article class="totem-card shaman-panel totem-card--air">
+          <div class="totem-card__bar">
+            <span class="totem-card__element">Тотем небес</span>
+            <span class="totem-card__rank">Ранг III</span>
+          </div>
+          <h3 class="totem-card__title">Desktop и Rust</h3>
+          <p class="totem-card__text">TypeScript, React, Tauri 2, Rust engine для финансовых расчётов.</p>
+          <div class="totem-card__meter" style="--level: 80%"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section experience" id="experience">
+      <div class="section__header">
+        <span class="section__index">02</span>
+        <h2 class="section__title">Опыт</h2>
+        <p class="section__desc">Июнь 2023 — настоящее время · 3 года · программист (Golang / C++).</p>
+      </div>
+      <article class="experience-card shaman-panel">
+        <div class="experience-card__header">
+          <span class="experience-card__period">2023 — н.в.</span>
+          <span class="experience-card__badge">3 года</span>
+        </div>
+        <h3 class="experience-card__role">Программист · многосервисное приложение для инвестиций</h3>
+        <ul class="experience-card__list">
+          <li><strong>Backend (Go):</strong> REST API и WebSocket для котировок, авторизация, PostgreSQL, миграции,
+            конфигурация через переменные окружения.</li>
+          <li><strong>Engine (Rust):</strong> сервис финансовых расчётов (прогноз доходности, метрики) с
+            gRPC/HTTP-интерфейсом.</li>
+          <li><strong>Desktop (Tauri + React):</strong> управление портфелем, локализация ru/en, сборка под Windows.
+          </li>
+          <li><strong>Инфраструктура:</strong> Docker Compose — отдельные контейнеры для backend, engine, БД и Redis.
+          </li>
+        </ul>
+        <p class="experience-card__note">Pet-проекты: Go API-сервисы, production-style scraping; C/C++ — инструменты с
+          DLL и Lua-скриптами.</p>
+      </article>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section__header">
+        <span class="section__index">03</span>
+        <h2 class="section__title">Проекты</h2>
+        <p class="section__desc">Открытые репозитории на <a href="https://github.com/Taurenov" class="section__link"
+            target="_blank" rel="noopener noreferrer">GitHub @Taurenov</a> — 10 публичных проектов.</p>
+      </div>
+      <div class="projects__grid">
+        <article class="project-card shaman-panel">
+          <div class="project-card__accent"></div>
+          <span class="project-card__tag">Go · Rust · Tauri</span>
+          <h3 class="project-card__title">Fin Helper (invest.v2)</h3>
+          <p class="project-card__text">Десктопный финансовый помощник: Tauri + React, Go API, Rust engine, PostgreSQL,
+            Redis. REST, WebSocket котировок, прогнозы рынка, портфель и аналитика.</p>
+          <p class="project-card__stack">Docker Compose · миграции · i18n ru/en</p>
+          <a href="https://github.com/Taurenov/invest.v2" class="project-card__link shaman-btn shaman-btn--link"
+            target="_blank" rel="noopener noreferrer"><span class="shaman-btn__label">Открыть репозиторий</span></a>
+        </article>
+        <article class="project-card shaman-panel">
+          <div class="project-card__accent"></div>
+          <span class="project-card__tag">Go · PostgreSQL</span>
+          <h3 class="project-card__title">Subscriptions API</h3>
+          <p class="project-card__text">REST-сервис агрегации онлайн-подписок (Effective Mobile). CRUD, фильтры, расчёт
+            стоимости за период, Swagger UI, автомиграции.</p>
+          <p class="project-card__stack">chi · pgx · Docker Compose</p>
+          <a href="https://github.com/Taurenov/Tech-Effective-Mobile"
+            class="project-card__link shaman-btn shaman-btn--link" target="_blank" rel="noopener noreferrer"><span
+              class="shaman-btn__label">Открыть репозиторий</span></a>
+        </article>
+        <article class="project-card shaman-panel">
+          <div class="project-card__accent"></div>
+          <span class="project-card__tag">Go</span>
+          <h3 class="project-card__title">Grocery Scraper</h3>
+          <p class="project-card__text">Production-ready сервис сбора данных ритейлеров через API: worker pool, proxy
+            rotation, retry/backoff, rate limiting, экспорт JSON/CSV.</p>
+          <p class="project-card__stack">Zap · graceful shutdown · PostgreSQL</p>
+          <a href="https://github.com/Taurenov/go-scraping-service"
+            class="project-card__link shaman-btn shaman-btn--link" target="_blank" rel="noopener noreferrer"><span
+              class="shaman-btn__label">Открыть репозиторий</span></a>
+        </article>
+        <article class="project-card shaman-panel">
+          <div class="project-card__accent"></div>
+          <span class="project-card__tag">Go · PostgreSQL</span>
+          <h3 class="project-card__title">Org Structure API</h3>
+          <p class="project-card__text">API организационной структуры: дерево подразделений, сотрудники, каскадное
+            удаление и reassign. Тестовое задание HiTalent.</p>
+          <p class="project-card__stack">goose · Docker · REST</p>
+          <a href="https://github.com/Taurenov/hitalent-tech" class="project-card__link shaman-btn shaman-btn--link"
+            target="_blank" rel="noopener noreferrer"><span class="shaman-btn__label">Открыть репозиторий</span></a>
+        </article>
+        <article class="project-card shaman-panel">
+          <div class="project-card__accent"></div>
+          <span class="project-card__tag">C++ · Lua</span>
+          <h3 class="project-card__title">Apep-Rotation</h3>
+          <p class="project-card__text">Инструмент для игры на C/C++: DLL-инжект, хуки, работа с памятью, интеграция с
+            Lua-скриптами ротации способностей.</p>
+          <p class="project-card__stack">Низкоуровневая разработка · pet-project</p>
+          <a href="https://github.com/Taurenov/Apep-Rotation" class="project-card__link shaman-btn shaman-btn--link"
+            target="_blank" rel="noopener noreferrer"><span class="shaman-btn__label">Открыть репозиторий</span></a>
+        </article>
+        <article class="project-card shaman-panel">
+          <div class="project-card__accent"></div>
+          <span class="project-card__tag">Go</span>
+          <h3 class="project-card__title">GO-lessons</h3>
+          <p class="project-card__text">Учебные материалы и упражнения по Go: закрепление синтаксиса, стандартной
+            библиотеки и паттернов backend-разработки.</p>
+          <p class="project-card__stack">Обучение · open source</p>
+          <a href="https://github.com/Taurenov/GO-lessons" class="project-card__link shaman-btn shaman-btn--link"
+            target="_blank" rel="noopener noreferrer"><span class="shaman-btn__label">Открыть репозиторий</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="about__paper shaman-panel">
+        <div class="about__zen" aria-hidden="true">
+          <span class="about__circle"></span>
+          <span class="about__line"></span>
+        </div>
+        <div class="section__header section__header--inline">
+          <span class="section__index">04</span>
+          <h2 class="section__title">Обо мне</h2>
+        </div>
+        <p class="about__text">
+          Backend-разработчик на Golang, 24 года — и за пределами IDE я в Азероте играю
+          <strong>шаманом</strong>: баланс стихий, тотемы и синергия командной игры отражаются в том,
+          как я проектирую сервисы. Стек: Go, Rust, PostgreSQL, Redis, Docker, Tauri, C/C++.
+        </p>
+        <p class="about__text">
+          Разрабатываю многосервисное приложение для инвестиций: десктоп-клиент, backend и отдельный
+          Rust-engine для финансовых расчётов. Люблю продумывать систему целиком — от доменной модели
+          и API до сборки и деплоя.
+        </p>
+        <p class="about__text about__text--goal">
+          Ищу команду, где смогу развиваться как Golang backend-разработчик уровня middle: нагруженные
+          проекты, ответственность за архитектуру и качество кода. Формат работы — удалённо.
+        </p>
+        <ul class="about__traits">
+          <li>
+            <svg class="about__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+              <path d="M4 12h16M12 4v16" />
+            </svg>
+            <span>Архитектура</span>
+          </li>
+          <li>
+            <svg class="about__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+              <rect x="3" y="3" width="18" height="18" rx="1" />
+            </svg>
+            <span>Качество кода</span>
+          </li>
+          <li>
+            <svg class="about__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+              <circle cx="12" cy="12" r="8" />
+              <path d="M12 8v4l3 2" />
+            </svg>
+            <span>Системный подход</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section__header">
+        <span class="section__index">05</span>
+        <h2 class="section__title">Контакты</h2>
+      </div>
+      <div class="contact__grid shaman-panel">
+        <a class="contact__item" href="tel:+79992403337">
+          <span class="contact__label">Телефон</span>
+          <span class="contact__value">+7 (999) 240-33-37</span>
+        </a>
+        <a class="contact__item" href="mailto:isataevmihail@proton.me">
+          <span class="contact__label">Email</span>
+          <span class="contact__value">isataevmihail@proton.me</span>
+        </a>
+        <a class="contact__item" href="https://t.me/Svalrix" target="_blank" rel="noopener noreferrer">
+          <span class="contact__label">Telegram</span>
+          <span class="contact__value">@Svalrix</span>
+        </a>
+        <a class="contact__item" href="https://github.com/Taurenov" target="_blank" rel="noopener noreferrer">
+          <span class="contact__label">GitHub</span>
+          <span class="contact__value">@Taurenov · Svalrix</span>
+        </a>
+        <a class="contact__item" href="resume.pdf" target="_blank" rel="noopener noreferrer">
+          <span class="contact__label">Резюме</span>
+          <span class="contact__value">PDF</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <aside class="action-bar" aria-label="Панель действий">
+    <a href="#skills" class="action-bar__slot">Навыки</a>
+    <a href="#experience" class="action-bar__slot">Опыт</a>
+    <a href="#projects" class="action-bar__slot">Проекты</a>
+    <a href="#about" class="action-bar__slot">Обо мне</a>
+    <a href="https://github.com/Taurenov" class="action-bar__slot action-bar__slot--active" target="_blank"
+      rel="noopener noreferrer">GitHub</a>
+  </aside>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> · Исатаев Михаил · Шаман стихий кода</p>
+    <p class="footer__note">Shaman · Backend Developer</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
